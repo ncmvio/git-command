@@ -1,5 +1,6 @@
 ## What is origin/main?
 
+A remote tracking branch, despite that the word remote appears its name, is actually not remote, it is completely local to your local Git repository. It's main purpose is to serve as a proxy for the actual branch which exists on the remote (e.g. GitHub, Bitbucket, etc.).
 It is local copy of the branch named "main" on the remote named "origin".The origin/main branch is local! Any time you fetch from origin, origin/main will get updated.The origin/main branch is not a reference or pointer to the main branch on origin. It is a local copy.
 
 Since origin/main is a branch, you can merge it. Here's a pull in two steps:
