@@ -15,3 +15,6 @@ Since origin/main is a branch, you can merge it. Here's a pull in two steps:
 - Then you can push your new changes in main back to origin:
 
 `git push origin main`
+
+## What does git fetch do?
+It pull any new commit from remote to local origin/main branch. Its doesnt merge them with local main. to see the commit you need to merge origin/main to main branch.
